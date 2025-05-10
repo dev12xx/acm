@@ -9,13 +9,16 @@ import Calculatrice from "./component/Calculatrice";
   import './App.css';
 import Message from "./component/Message";
 import Paragraphe from './component/paragraphe';
-import User from './component/user';
-
+import User from './component/User';
+import Message2 from "./component/Message2";
 import Paragraphe2 from "./component/Paragraphe2";
+import Produit from "./component/Produit";
 
+import Evenment from "./component/Evenment";
+import Animal from "./component/Tableau";
 
-
-   function App() {
+function App() {  
+    const animal=["chien","chat","lapin"]
      return (
        <div>
          <Titre1/>
@@ -29,6 +32,17 @@ import Paragraphe2 from "./component/Paragraphe2";
         <Paragraphe/>
         <User/>
         <Paragraphe2/>
+        <Message2 nom=" ahmed"/>
+        <Message2 nom=" mohamed"/>
+  <Produit mystyle={{ color: 'green',fontSize:'50px'}}
+   pri={{color:'blue'}} informastions ={{nom:"sucre",prix:100.45,}}
+  will={{color:'red'}} informastion={{wilaya:"constantine"}}/>
+
+       
+        <Animal animaux={animal}/>
+        <Evenment click={()=>alert("bien")}/>
+        <Evenment click={()=>alert("hhhh")}/>
+        <Evenment click={()=>alert("noooo")}/>
 </div>            
      )
    }
