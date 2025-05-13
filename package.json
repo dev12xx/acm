@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dev12xx.github.io/acm",
+  "homepage": "/acm",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
