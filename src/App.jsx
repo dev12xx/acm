@@ -14,6 +14,7 @@ import Produit from "./component/Produit";
 import Evenment from "./component/Evenment";
 import Animal from "./component/Tableau";
 import Phh from "./component/Phh";
+import Formulaire from './component/Formulaire';
 
 function App() {  
     const animal=["chien","chat","lapin"]
@@ -24,7 +25,7 @@ function App() {
          <Compteur/>
          <Text/>
          <Ph/>   
-         {/* <Formulaire/>     */}
+         <Formulaire/>   
          <Calculatrice/>
         <Message/>         
         <Paragraphe/>
