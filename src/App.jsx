@@ -7,7 +7,7 @@ import Ph from './component/Ph';
 
 import Calculatrice from "./component/Calculatrice";
 import Message from "./component/Message";
-import Paragraphe from './compone';
+import Paragraphe from './component';
 import Message2 from "./component/Message2";
 import Paragraphe2 from "./component/Paragraphe2";
 import Produit from "./component/Produit";
