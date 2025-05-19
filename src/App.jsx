@@ -1,6 +1,6 @@
 import './App.css';
 import Titre from './component/Titre';
-// import Titre1 from './component/Titre1';
+import Titre1 from './component/Titre1';
 import Compteur from './component/compteur';
 import Text from './component/Text';
 import Ph from './component/Ph';   
@@ -22,7 +22,7 @@ function App() {
     const animal=["chien","chat","lapin"]
      return (
        <div>
-         {/* <Titre1/> */}
+         <Titre1/>
          <Titre/>
          <Compteur/>
          <Text/>
