@@ -7,7 +7,7 @@ import Ph from './component/Ph';
 
 import Calculatrice from "./component/Calculatrice";
 import Message from "./component/Message";
-import Paragraphe from './component';
+
 import Message2 from "./component/Message2";
 import Paragraphe2 from "./component/Paragraphe2";
 import Produit from "./component/Produit";
@@ -15,6 +15,7 @@ import Evenment from "./component/Evenment";
 import Animal from "./component/Tableau";
 import Phh from "./component/Phh";
 import Formulaire from './component/Formulaire';
+import Paragraphe from './component/paragraphe';
 
 function App() {  
     const animal=["chien","chat","lapin"]
