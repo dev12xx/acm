@@ -16,6 +16,7 @@ import Animal from "./component/Tableau";
 import Phh from "./component/Phh";
 import Formulaire from './component/Formulaire';
 import Paragraphe from './component/paragraphe';
+import User from './component/User';
 
 function App() {  
     const animal=["chien","chat","lapin"]
