@@ -9,23 +9,19 @@ class Calculatrice extends Component {
       resultat: ''
     };
   }
-
  Change = (e) => {
     this.setState({
       [e.target.name]: e.target.value
     });
   };
-
   calculer = () => {
     const { nombre1, nombre2, operation } = this.state;
     const num1 = parseFloat(nombre1);
-    const num2 = parseFloat(nombre2);
-    
+    const num2 = parseFloat(nombre2); 
     if (isNaN(num1) || isNaN(num2)) {
       this.setState({ resultat: 'Veuillez entrer deux nombres valides' });
       return;
     }
-
     let calcul;
     switch(operation) {
       case '+':
@@ -42,8 +38,7 @@ class Calculatrice extends Component {
         break;
       default:
         calcul = 'Operation invalide';
-    }
-    
+    }  
     this.setState({ resultat: calcul });
   };
 

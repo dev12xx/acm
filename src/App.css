@@ -39,8 +39,12 @@ p {
   text-align: center;
   font-weight: bold;
   margin-top: 15px;
-  color: #3104fc;
+  color: #c6fc04;
+  text-align: left;
  
   
   
+}
+h1{
+  color: rgb(21, 255, 0);
 }

@@ -1,21 +1,19 @@
-
+import './App.css';
 import Titre from './component/Titre';
 import Titre1 from './component/Titre1';
 import Compteur from './component/compteur';
 import Text from './component/Text';
 import Ph from './component/Ph';   
-import Formulaire from "./component/Formulaire";
+
 import Calculatrice from "./component/Calculatrice";
-  import './App.css';
 import Message from "./component/Message";
-import Paragraphe from './component/paragraphe';
-import User from './component/User';
+import Paragraphe from './compone';
 import Message2 from "./component/Message2";
 import Paragraphe2 from "./component/Paragraphe2";
 import Produit from "./component/Produit";
-
 import Evenment from "./component/Evenment";
 import Animal from "./component/Tableau";
+import Phh from "./component/Phh";
 
 function App() {  
     const animal=["chien","chat","lapin"]
@@ -26,7 +24,7 @@ function App() {
          <Compteur/>
          <Text/>
          <Ph/>   
-         <Formulaire/>    
+         {/* <Formulaire/>     */}
          <Calculatrice/>
         <Message/>         
         <Paragraphe/>
@@ -43,6 +41,7 @@ function App() {
         <Evenment click={()=>alert("bien")}/>
         <Evenment click={()=>alert("hhhh")}/>
         <Evenment click={()=>alert("noooo")}/>
+          <Phh/>
 </div>            
      )
    }
